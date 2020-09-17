@@ -1,14 +1,14 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace GeraldMod.Items
+namespace GeraldTmod.Items
 {
 	public class CactusShortsword : ModItem
 	{
 		public override void SetStaticDefaults() 
 		{
 			DisplayName.SetDefault("Cactus Shortsword");
-			Tooltip.SetDefault("Cactus is strong.");
+			Tooltip.SetDefault("Cactus is strong but Gerald is stronger.");
 		}
 
 		public override void SetDefaults() 
