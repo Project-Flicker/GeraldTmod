@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace GeraldTMod.Items
+namespace GeraldTmod.Items
 {
 	public class GeraldStaff : ModItem
 	{
@@ -28,7 +28,7 @@ namespace GeraldTMod.Items
 			item.UseSound = SoundID.Item1;
 			item.mana = 50;
 			item.autoReuse = true;
-			item.shoot = ModContent.ProjectileType<CactusStaffProjectile>();
+			item.shoot = ModContent.ProjectileType<GeraldStaffProjectile>();
 		}
 
 		public override void AddRecipes()
