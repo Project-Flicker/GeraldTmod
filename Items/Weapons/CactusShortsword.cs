@@ -1,7 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace CactusMod.Items
+namespace GeraldMod.Items
 {
 	public class CactusShortsword : ModItem
 	{
