@@ -19,9 +19,9 @@ namespace GeraldTmod.Items
 			item.width = 36;
 			item.height = 36;
 			item.useAnimation = 10;
-			item.useTime = 10;
-			item.damage = 7;
-			item.rare = 0;
+			item.useTime = 1;
+			item.damage = 300;
+			item.rare = 10;
 			item.noMelee = true;
 			item.channel = true;
 			item.magic = true;
