@@ -13,13 +13,13 @@ namespace GeraldTmod.Projectiles
 			projectile.magic = true;
 			projectile.friendly = true;
 			projectile.hostile = false;
-			projectile.penetrate = 2;
+			projectile.penetrate = 10;
 			projectile.ai[0] = 0;
-			projectile.timeLeft = 600;
+			projectile.timeLeft = 6000;
 		}
 
 		public override void AI() {
-			projectile.damage = 8;
+			projectile.damage = 300;
 			if (projectile.position.X>Main.MouseWorld.X+1 || projectile.position.X<Main.MouseWorld.X-1) {
 				if (Main.MouseWorld.X<projectile.position.X)
 					projectile.velocity.X=-2f;
