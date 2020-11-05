@@ -1,6 +1,6 @@
 using Terraria.ID;
 using Terraria.ModLoader;
-
+//pokkeeeeeeemoooooon
 namespace GeraldTmod.Items
 {
 	public class CactusShortsword : ModItem
@@ -13,18 +13,18 @@ namespace GeraldTmod.Items
 
 		public override void SetDefaults() 
 		{
-			item.damage = 9;
-			item.melee = true;
-			item.width = 28;
-			item.height = 29;
-			item.useTime = 19;
-			item.useAnimation = 19;
-			item.useStyle = 3;
-			item.knockBack = 6;
-			item.value = 1251;
-			item.rare = 0;
-			item.UseSound = SoundID.Item1;
-			item.autoReuse = true;
+			item.damage = 9; //uwu
+			item.melee = true; //owo
+			item.width = 28; //ewe
+			item.height = 29; //awa
+			item.useTime = 19; //iwi
+			item.useAnimation = 19; //lwl
+			item.useStyle = 3; //sws
+			item.knockBack = 6; //nwn
+			item.value = 1251; //mwm
+			item.rare = 0; //dwd
+			item.UseSound = SoundID.Item1; //hwh
+			item.autoReuse = true; //aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 		}
 
 		public override void AddRecipes() 
