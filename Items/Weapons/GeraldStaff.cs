@@ -26,12 +26,12 @@ namespace GeraldTmod.Items
 			item.channel = true;
 			item.magic = true;
 			item.UseSound = SoundID.Item1;
-			item.mana = 50;
+			item.mana = 69;
 			item.autoReuse = true;
 			item.shoot = ModContent.ProjectileType<GeraldStaffProjectile>();
 		}
 
-		public override void AddRecipes()
+		public override void AddRecipes()69
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.Cactus, 999);
